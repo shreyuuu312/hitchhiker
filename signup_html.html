@@ -1,0 +1,74 @@
+<html>
+
+       <head><title>HitchHiker - Signup</title>
+	   <script src="validate_signup.js"></script>
+
+        <link rel="stylesheet" href="homepage_css.css" sheet="css/text"></link>
+
+<link rel="icon" href="hitchhiker_logo.png"></link>       
+
+
+</head>
+  
+      <body class="homepage-back">
+
+
+
+<div class="title-img">
+<marquee>NEVER RIDE ALONE!	CAR POOL AND BE COOL :)</marquee>
+</div>
+
+<div class="trans-div" style="padding: 5px;
+	font-weight:bold;
+	font-size:x-large;
+	position: fixed;
+	color:white;
+	top:50%;
+	left: 1%;
+	right:30%;
+	float: left;
+	overflow: auto;
+	box-shadow:0 0 30px rgba(1,1,1,0.5)">
+With HitchHiker, you'll never be left alone on the road with your thumb held high in hope for a good samaritan to give you a ride to your destination.
+</div>
+
+<div class="trans-div" style="padding: 5px;
+	font-weight:bold;
+	font-size:x-large;
+	position: fixed;
+	color:white;
+	top:70%;
+	left: 1%;
+	right:30%;
+	float: left;
+	overflow: auto;
+	box-shadow:0 0 30px rgba(1,1,1,0.5)">So don't wait anymore standing clueless and give your thumb some rest while we connect you to some people who're going where you're going<br><hr><center>but first... SIGNUP HERE ---></center></div>
+            <div id="signup" class="testbox">
+<center>
+<h1>
+
+Signup
+
+</h1>
+  
+              <form name="signup_form" action="http://localhost/signup.php" method="post">
+
+<hr></hr><input type="text" placeholder="First Name" name="fname" required></input>
+					
+		 <input type="text"  placeholder="Last Name" name="lname" required="" ></input>
+         
+		 <input type="text"  placeholder="Contact no." name="contact_no" pattern="[0-9]{10}" maxlength="10" title="10 digit number"></input>  
+		
+		 <input type="email"  placeholder="Email" name="email_id" title="e.g. abc@gmail.com" required></input>
+ 
+             
+                    <input type="password" required="" placeholder="Password" name="pwd" maxlength="10" minlength="3" required></input><br>
+                    
+ 
+                    <input class="button" type="submit" value="Signup now">
+                    
+					</form>
+                    </div>
+
+</body>
+</html>
