@@ -10,3 +10,9 @@ HitchHiker is a mini project developed as an assignment for Web Technology and L
 - Clone the repository on your localhost
 - Import the SQL file in phpmyadmin
 - Visit the site in browser on localhost
+
+# To Import SQL Files into MySQL Databases Using phpMyAdmin
+1) Access your database via PHPMyAdmin (cPanel / Plesk / Managed WordPress).
+2) On the left, click the database you want to use.
+3) Select the Import tab.
+4) Click Browse, locate the SQL file on your computer, click Open, and then click Go.
